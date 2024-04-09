@@ -16,13 +16,14 @@
 }
 
 .item {
+    margin: 24px 16px;
     border-radius: 12px;
     background-color: #F7F6FA;
     padding: 24px 16px;
     /* gap: 16px; */
     border: 1px solid red;
     border-radius: 12px;
-    max-width: 20%;
+    max-width: 15%;
 }
 
 .item .item-time,
