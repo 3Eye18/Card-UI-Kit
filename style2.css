@@ -1,0 +1,116 @@
+* {
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    width: 360px;
+    align-self: center;
+}
+
+/* Top Section */
+.item__top {
+    position: relative;
+    width: 100%;
+    height: 55%;
+}
+
+.item__top .item__time-posted {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15.73px;
+    color: #FFFFFF;
+    background-color: #2A282F;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.item__top .item__img {
+    width: 100%;
+    height: 280px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 12px 12px 0 0;
+}
+
+/* Bottom Section */
+.item__bottom {
+    background-color:#F7F6FA;
+    width: 100%;
+    height: 45%;
+    padding: 16px;
+    opacity: 0px;
+    border-radius: 0 0 12px 12px;
+}
+
+.item__bottom .item__text {
+    margin-bottom: 36px;
+}
+
+.item__bottom .item__heading {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #2A282F;
+    margin-top: 6px;
+}
+
+.item__bottom .item__content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #625F68;
+    margin: 8px 0;
+}
+
+.item__bottom .item__time-since {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #A8A6AC;
+}
+
+.item__bottom .item__bottom-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__bottom-footer .item__star-list {
+    list-style-type: none;
+}
+
+.item__bottom-footer .item__star-list li {
+    display: inline-block;
+}
